@@ -71,10 +71,10 @@ const DrivingLicenseTest = () => {
       firstName: '',
       lastName: '',
       physical: {
-        colorBlindness: false,
-        farsightedness: false,
-        astigmatism: false,
-        reflexes: false
+        colorBlindness: false, //ตาบอดสี
+        farsightedness: false, //สายตายาว
+        astigmatism: false, //สายตาเอียงง
+        reflexes: false //การตอบสนอง
       },
       theoretical: {
         trafficSigns: 0,
